@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" width="1000" height="330" font-family="'JetBrains Mono','Courier New',monospace">
+  <defs>
+    <linearGradient id="t1h" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#7ee787" stop-opacity="0.16"/><stop offset="100%" stop-color="#7ee787" stop-opacity="0"/></linearGradient>
+    <linearGradient id="t2h" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#00b4d8" stop-opacity="0.20"/><stop offset="100%" stop-color="#00b4d8" stop-opacity="0"/></linearGradient>
+    <linearGradient id="t3h" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#ff4d6d" stop-opacity="0.20"/><stop offset="100%" stop-color="#ff4d6d" stop-opacity="0"/></linearGradient>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <rect width="1000" height="330" fill="#04080f"/>
+
+  <!-- ============ TIER 1 ============ -->
+  <g>
+    <rect x="8" y="8" width="320" height="314" rx="12" fill="#0a1929" stroke="#1f6b46" stroke-width="1.4"/>
+    <rect x="8" y="8" width="320" height="34" rx="12" fill="url(#t1h)"/>
+    <text x="24" y="30" fill="#7ee787" font-size="15" font-weight="700" letter-spacing="1" filter="url(#g)">&#10217; TIER 1 — TRIAGE</text>
+    <text x="24" y="60" fill="#5fa8d3" font-size="10.5"><tspan fill="#ffb703" font-weight="700">MISSION</tspan> first line of defense</text>
+    <text x="24" y="76" fill="#5fa8d3" font-size="10.5"><tspan fill="#ffb703" font-weight="700">SLA</tspan> triage + escalate 15&#8211;30 min</text>
+    <text x="24" y="100" fill="#00b4d8" font-size="10" letter-spacing="1.5">CORE OPS</text>
+    <g fill="#bcdcee" font-size="11" font-family="sans-serif">
+      <text x="24" y="120"><tspan fill="#7ee787">&#8250;</tspan> Monitor SIEM 24/7</text>
+      <text x="24" y="138"><tspan fill="#7ee787">&#8250;</tspan> TP / FP classification</text>
+      <text x="24" y="156"><tspan fill="#7ee787">&#8250;</tspan> IOC enrichment</text>
+      <text x="24" y="174"><tspan fill="#7ee787">&#8250;</tspan> Ticketing &amp; documentation</text>
+      <text x="24" y="192"><tspan fill="#7ee787">&#8250;</tspan> Run SOPs / playbooks</text>
+      <text x="24" y="210"><tspan fill="#7ee787">&#8250;</tspan> Escalate with timeline</text>
+      <text x="24" y="228"><tspan fill="#7ee787">&#8250;</tspan> Tune false positives</text>
+    </g>
+    <text x="24" y="252" fill="#00b4d8" font-size="10" letter-spacing="1.5">TOOLS</text>
+    <text x="24" y="270" fill="#9fc7e0" font-size="10">Splunk &#183; Sentinel &#183; QRadar</text>
+    <text x="24" y="285" fill="#9fc7e0" font-size="10">Wazuh &#183; ServiceNow &#183; Jira</text>
+    <text x="24" y="310" fill="#64ffda" font-size="10.5" filter="url(#g)">CERT &#8594; Security+ &#183; CySA+ &#183; CCOA</text>
+  </g>
+
+  <!-- ============ TIER 2 ============ -->
+  <g>
+    <rect x="340" y="8" width="320" height="314" rx="12" fill="#0a1929" stroke="#0e5a82" stroke-width="1.4"/>
+    <rect x="340" y="8" width="320" height="34" rx="12" fill="url(#t2h)"/>
+    <text x="356" y="30" fill="#00b4d8" font-size="15" font-weight="700" letter-spacing="1" filter="url(#g)">&#10217; TIER 2 — INCIDENT RESPONSE</text>
+    <text x="356" y="60" fill="#5fa8d3" font-size="10.5"><tspan fill="#ffb703" font-weight="700">MISSION</tspan> heavy-lifter / deep dive</text>
+    <text x="356" y="76" fill="#5fa8d3" font-size="10.5"><tspan fill="#ffb703" font-weight="700">AUTH</tspan> containment actions approved</text>
+    <text x="356" y="100" fill="#00b4d8" font-size="10" letter-spacing="1.5">CORE OPS</text>
+    <g fill="#bcdcee" font-size="11" font-family="sans-serif">
+      <text x="356" y="120"><tspan fill="#00b4d8">&#8250;</tspan> Investigate escalations</text>
+      <text x="356" y="138"><tspan fill="#00b4d8">&#8250;</tspan> Cross-source correlation</text>
+      <text x="356" y="156"><tspan fill="#00b4d8">&#8250;</tspan> Contain &#8594; eradicate &#8594; recover</text>
+      <text x="356" y="174"><tspan fill="#00b4d8">&#8250;</tspan> Isolate hosts / block IPs</text>
+      <text x="356" y="192"><tspan fill="#00b4d8">&#8250;</tspan> Behavioral malware analysis</text>
+      <text x="356" y="210"><tspan fill="#00b4d8">&#8250;</tspan> Write &amp; tune SIEM rules</text>
+      <text x="356" y="228"><tspan fill="#00b4d8">&#8250;</tspan> Threat-intel integration</text>
+    </g>
+    <text x="356" y="252" fill="#00b4d8" font-size="10" letter-spacing="1.5">TOOLS</text>
+    <text x="356" y="270" fill="#9fc7e0" font-size="10">EDR &#183; XDR &#183; NDR &#183; SOAR</text>
+    <text x="356" y="285" fill="#9fc7e0" font-size="10">MISP &#183; CrowdStrike &#183; VirusTotal</text>
+    <text x="356" y="310" fill="#64ffda" font-size="10.5" filter="url(#g)">CERT &#8594; GCIH &#183; ECIH &#183; BTL1</text>
+  </g>
+
+  <!-- ============ TIER 3 ============ -->
+  <g>
+    <rect x="672" y="8" width="320" height="314" rx="12" fill="#0a1929" stroke="#8a2740" stroke-width="1.4"/>
+    <rect x="672" y="8" width="320" height="34" rx="12" fill="url(#t3h)"/>
+    <text x="688" y="30" fill="#ff4d6d" font-size="15" font-weight="700" letter-spacing="1" filter="url(#g)">&#10217; TIER 3 — HUNT / ENGINEER</text>
+    <text x="688" y="60" fill="#5fa8d3" font-size="10.5"><tspan fill="#ffb703" font-weight="700">MISSION</tspan> apex experts</text>
+    <text x="688" y="76" fill="#5fa8d3" font-size="10.5"><tspan fill="#ffb703" font-weight="700">SCOPE</tspan> major incidents + strategy</text>
+    <text x="688" y="100" fill="#00b4d8" font-size="10" letter-spacing="1.5">CORE OPS</text>
+    <g fill="#bcdcee" font-size="11" font-family="sans-serif">
+      <text x="688" y="120"><tspan fill="#ff4d6d">&#8250;</tspan> Proactive threat hunting</text>
+      <text x="688" y="138"><tspan fill="#ff4d6d">&#8250;</tspan> Memory + disk forensics</text>
+      <text x="688" y="156"><tspan fill="#ff4d6d">&#8250;</tspan> Malware reverse-engineering</text>
+      <text x="688" y="174"><tspan fill="#ff4d6d">&#8250;</tspan> Detection engineering @ scale</text>
+      <text x="688" y="192"><tspan fill="#ff4d6d">&#8250;</tspan> Lead major IR / post-mortems</text>
+      <text x="688" y="210"><tspan fill="#ff4d6d">&#8250;</tspan> Security architecture input</text>
+      <text x="688" y="228"><tspan fill="#ff4d6d">&#8250;</tspan> ATT&amp;CK adversary emulation</text>
+    </g>
+    <text x="688" y="252" fill="#00b4d8" font-size="10" letter-spacing="1.5">TOOLS</text>
+    <text x="688" y="270" fill="#9fc7e0" font-size="10">Volatility &#183; Ghidra &#183; IDA</text>
+    <text x="688" y="285" fill="#9fc7e0" font-size="10">Velociraptor &#183; Sigma &#183; Sliver</text>
+    <text x="688" y="310" fill="#64ffda" font-size="10.5" filter="url(#g)">CERT &#8594; GCFA &#183; GREM &#183; OSCP</text>
+  </g>
+</svg>
