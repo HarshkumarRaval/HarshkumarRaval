@@ -5,7 +5,7 @@
 
   SETUP:
   1. Upload  hero.svg  to this repo root (powers the animated banner).
-  2. Find-replace:  HarshkumarRaval · YOUR_LINKEDIN · YOUR_YOUTUBE · YOUR_EMAIL · REPO_LINK
+  2. Find-replace:  HarshkumarRaval · www.linkedin.com/in/harshkumaraval · YOUR_YOUTUBE · YOUR_EMAIL · REPO_LINK
   3. Snake animation: enable the Action (notes at bottom).
 ============================================================
 -->
@@ -20,7 +20,7 @@
 
 <br/><br/>
 
-<a href="YOUR_LINKEDIN"><img src="https://img.shields.io/badge/%E2%96%B8_LINKEDIN-0a1929?style=for-the-badge&logo=linkedin&logoColor=64ffda&labelColor=0a1929"/></a>
+<a href="www.linkedin.com/in/harshkumaraval"><img src="https://img.shields.io/badge/%E2%96%B8_LINKEDIN-0a1929?style=for-the-badge&logo=linkedin&logoColor=64ffda&labelColor=0a1929"/></a>
 <a href="YOUR_YOUTUBE"><img src="https://img.shields.io/badge/%E2%96%B8_HRTECHVERSE-0a1929?style=for-the-badge&logo=youtube&logoColor=ff4d6d&labelColor=0a1929"/></a>
 <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/%E2%96%B8_TRANSMIT-0a1929?style=for-the-badge&logo=gmail&logoColor=00b4d8&labelColor=0a1929"/></a>
 <img src="https://komarev.com/ghpvc/?username=HarshkumarRaval&style=for-the-badge&color=0a1929&label=%E2%97%89+VISITORS"/>
