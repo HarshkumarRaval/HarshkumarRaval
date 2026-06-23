@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 230" width="1000" height="230" font-family="'JetBrains Mono','Courier New',monospace">
+  <defs>
+    <filter id="gg" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1000" height="230" fill="#04080f"/>
+  <!-- panel -->
+  <rect x="8" y="8" width="984" height="214" rx="12" fill="#06101e" stroke="#0e3a5c" stroke-width="1.5"/>
+  <rect x="8" y="8" width="984" height="30" rx="12" fill="#0a1c30"/>
+  <circle cx="30" cy="23" r="5" fill="#ff5f57"/>
+  <circle cx="50" cy="23" r="5" fill="#febc2e"/>
+  <circle cx="70" cy="23" r="5" fill="#28c840"/>
+  <text x="500" y="27" text-anchor="middle" fill="#3d7ea6" font-size="11" letter-spacing="1">hr-soc — ./whoami</text>
+
+  <g font-size="13.5">
+    <text x="28" y="62" fill="#64ffda"><tspan fill="#7ee787">visitor@hr-soc</tspan>:~$ boot --profile=operator</text>
+    <text x="28" y="84" fill="#9fc7e0"><tspan fill="#7ee787">[ OK ]</tspan>  Computer Engineer + PG Diploma, Cybersecurity</text>
+    <text x="28" y="106" fill="#9fc7e0"><tspan fill="#7ee787">[ OK ]</tspan>  role .......... SOC Analyst <tspan fill="#5fa8d3">// full-spectrum Tier 1 &#8594; 3</tspan></text>
+    <text x="28" y="128" fill="#9fc7e0"><tspan fill="#7ee787">[ OK ]</tspan>  edge .......... Agentic AI for security operations</text>
+    <text x="28" y="150" fill="#9fc7e0"><tspan fill="#7ee787">[ OK ]</tspan>  lab ........... multi-VM home SOC <tspan fill="#5fa8d3">// Wazuh &#183; Splunk &#183; Sentinel</tspan></text>
+    <text x="28" y="172" fill="#9fc7e0"><tspan fill="#7ee787">[ OK ]</tspan>  location ...... New Brunswick, CA</text>
+    <text x="28" y="194" fill="#64ffda" filter="url(#gg)"><tspan fill="#00b4d8">[ &#9658;&#9658; ]</tspan>  mission ....... detect first. automate everything. hunt relentlessly.</text>
+    <rect x="28" y="204" width="9" height="14" fill="#64ffda"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>
