@@ -5,14 +5,14 @@
 
   SETUP:
   1. Upload  hero.svg  to this repo root (powers the animated banner).
-  2. Find-replace:  YOUR_USERNAME · YOUR_LINKEDIN · YOUR_YOUTUBE · YOUR_EMAIL · REPO_LINK
+  2. Find-replace:  HarshkumarRaval · YOUR_LINKEDIN · YOUR_YOUTUBE · YOUR_EMAIL · REPO_LINK
   3. Snake animation: enable the Action (notes at bottom).
 ============================================================
 -->
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/main/hero.svg" alt="HR // AI SOC Analyst" width="100%"/>
+<img src="https://raw.githubusercontent.com/HarshkumarRaval/HarshkumarRaval/main/hero.svg" alt="HR // AI SOC Analyst" width="100%"/>
 
 <br/>
 
@@ -23,7 +23,7 @@
 <a href="YOUR_LINKEDIN"><img src="https://img.shields.io/badge/%E2%96%B8_LINKEDIN-0a1929?style=for-the-badge&logo=linkedin&logoColor=64ffda&labelColor=0a1929"/></a>
 <a href="YOUR_YOUTUBE"><img src="https://img.shields.io/badge/%E2%96%B8_HRTECHVERSE-0a1929?style=for-the-badge&logo=youtube&logoColor=ff4d6d&labelColor=0a1929"/></a>
 <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/%E2%96%B8_TRANSMIT-0a1929?style=for-the-badge&logo=gmail&logoColor=00b4d8&labelColor=0a1929"/></a>
-<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=for-the-badge&color=0a1929&label=%E2%97%89+VISITORS"/>
+<img src="https://komarev.com/ghpvc/?username=HarshkumarRaval&style=for-the-badge&color=0a1929&label=%E2%97%89+VISITORS"/>
 
 </div>
 
@@ -227,14 +227,14 @@ I build the **AI layer** itself — multi-agent triage, enrichment & response pi
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&bg_color=04080f&title_color=64ffda&icon_color=00b4d8&text_color=9fc7e0&border_radius=10"/>
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&hide_border=true&background=04080f&stroke=0e3a5c&ring=64ffda&fire=ff4d6d&currStreakLabel=64ffda&sideLabels=9fc7e0&dates=3d7ea6&currStreakNum=e6f1ff&sideNums=e6f1ff"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=HarshkumarRaval&show_icons=true&hide_border=true&bg_color=04080f&title_color=64ffda&icon_color=00b4d8&text_color=9fc7e0&border_radius=10"/>
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=HarshkumarRaval&hide_border=true&background=04080f&stroke=0e3a5c&ring=64ffda&fire=ff4d6d&currStreakLabel=64ffda&sideLabels=9fc7e0&dates=3d7ea6&currStreakNum=e6f1ff&sideNums=e6f1ff"/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=algolia&no-frame=true&column=7&margin-w=8&title_color=64ffda"/>
+<img src="https://github-profile-trophy.vercel.app/?username=HarshkumarRaval&theme=algolia&no-frame=true&column=7&margin-w=8&title_color=64ffda"/>
 
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&bg_color=04080f&color=64ffda&line=00b4d8&point=ff4d6d&area=true&hide_border=true"/>
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=HarshkumarRaval&bg_color=04080f&color=64ffda&line=00b4d8&point=ff4d6d&area=true&hide_border=true"/>
 
-<img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/snake.svg" alt="snake"/>
+<img src="https://raw.githubusercontent.com/HarshkumarRaval/HarshkumarRaval/output/snake.svg" alt="snake"/>
 
 </div>
 
