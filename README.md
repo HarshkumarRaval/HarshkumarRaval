@@ -31,15 +31,9 @@
 
 ### `┌──[ ./whoami ]`
 
-```ansi
- visitor@hr-soc:~$ boot --profile=operator
-  [ OK ]  Computer Engineer + PG Diploma, Cybersecurity
-  [ OK ]  role .............. SOC Analyst // full-spectrum Tier 1 -> 3
-  [ OK ]  edge .............. Agentic AI for security operations
-  [ OK ]  lab ............... multi-VM home SOC // Wazuh - Splunk - Sentinel
-  [ OK ]  location .......... New Brunswick, CA
-  [ >> ]  mission ........... detect first. automate everything. hunt relentlessly.
-```
+<div align="center">
+<img src="https://raw.githubusercontent.com/HarshkumarRaval/HarshkumarRaval/main/whoami.svg" width="100%" alt="whoami"/>
+</div>
 
 > I operate across the **full SOC spectrum** — triaging alerts at the front line, running deep incident response in the middle, and threat-hunting + detection-engineering at the top. Built detection-first and automation-heavy, with **agentic AI** as the force multiplier the 2026 SOC runs on.
 
@@ -47,78 +41,9 @@
 
 ### `┌──[ ./soc_operations_matrix ]`  `// Tier 1 · 2 · 3 — 2026 AI-Augmented`
 
-<table>
-<tr>
-<th width="33%">⟩ TIER 1 — TRIAGE</th>
-<th width="33%">⟩ TIER 2 — INCIDENT RESPONSE</th>
-<th width="33%">⟩ TIER 3 — HUNT / ENGINEER</th>
-</tr>
-<tr valign="top">
-<td>
-
-`MISSION` first line of defense
-`SLA` triage + escalate in 15–30 min
-
-**Core Ops**
-- Monitor SIEM dashboards 24/7
-- True / false positive classification
-- IOC enrichment + context-building
-- Ticketing & documentation
-- Run SOPs / playbooks
-- Escalate with full timeline
-- Tune alerts, cut false positives
-
-**Tools**
-`Splunk` `Sentinel` `QRadar` `Wazuh` `ServiceNow` `Jira`
-
-**Cert Track**
-`Security+` · `CySA+` · `CCOA`
-
-</td>
-<td>
-
-`MISSION` heavy-lifter / deep dive
-`AUTH` containment actions approved
-
-**Core Ops**
-- Investigate escalated incidents
-- Cross-source event correlation
-- Contain → eradicate → recover
-- Isolate hosts, block IPs, disable accts
-- Basic malware analysis (behavior)
-- Write & tune SIEM detection rules
-- Threat-intel & IOC integration
-
-**Tools**
-`EDR` `XDR` `NDR` `SOAR` `MISP` `VirusTotal` `CrowdStrike`
-
-**Cert Track**
-`GCIH` · `ECIH` · `BTL1`
-
-</td>
-<td>
-
-`MISSION` apex experts
-`SCOPE` major incidents + strategy
-
-**Core Ops**
-- Proactive threat hunting
-- Digital forensics (memory + disk)
-- Malware reverse engineering
-- Detection engineering @ scale
-- Lead major IR / post-mortems
-- Security architecture input
-- Adversary emulation (ATT&CK)
-
-**Tools**
-`Volatility` `Ghidra` `IDA` `Velociraptor` `Sigma` `Sliver`
-
-**Cert Track**
-`GCFA` · `GREM` · `OSCP` · `GXPN`
-
-</td>
-</tr>
-</table>
+<div align="center">
+<img src="https://raw.githubusercontent.com/HarshkumarRaval/HarshkumarRaval/main/tier-matrix.svg" width="100%" alt="SOC Tier 1 2 3 Operations Matrix"/>
+</div>
 
 > ◉ **2026 reality:** agentic AI now auto-handles much of Tier 1 triage — so the edge is *AI oversight*: validating AI verdicts, tuning detections, and hunting. **64% of 2026 SOC listings require AI / ML / automation skills.** That's the lane I'm built for.
 
