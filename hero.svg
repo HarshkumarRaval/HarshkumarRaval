@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" font-family="'JetBrains Mono','Courier New',monospace">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#02060d"/>
+      <stop offset="55%" stop-color="#061325"/>
+      <stop offset="100%" stop-color="#08203a"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="72%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#00b4d8" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#00b4d8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="screen"><rect x="40" y="58" width="470" height="224" rx="10"/></clipPath>
+  </defs>
+
+  <!-- base -->
+  <rect width="1200" height="340" fill="url(#bg)"/>
+  <rect width="1200" height="340" fill="url(#halo)"/>
+
+  <!-- ===== MATRIX CODE RAIN (right field) ===== -->
+  <g font-size="15" font-family="monospace" opacity="0.55">
+    <g fill="#15a06a">
+      <text x="560" y="0"><tspan x="560" dy="16">1</tspan><tspan x="560" dy="16">0</tspan><tspan x="560" dy="16">1</tspan><tspan x="560" dy="16">1</tspan><tspan x="560" dy="16">0</tspan><tspan x="560" dy="16">0</tspan><tspan x="560" dy="16">1</tspan><tspan x="560" dy="16">0</tspan><tspan x="560" dy="16">1</tspan><tspan x="560" dy="16">1</tspan><tspan x="560" dy="16">0</tspan><tspan x="560" dy="16" fill="#b6ffd9">1</tspan><animateTransform attributeName="transform" type="translate" from="0 -200" to="0 360" dur="5.5s" begin="0s" repeatCount="indefinite"/></text>
+      <text x="610" y="0"><tspan x="610" dy="16">0</tspan><tspan x="610" dy="16">1</tspan><tspan x="610" dy="16">0</tspan><tspan x="610" dy="16">0</tspan><tspan x="610" dy="16">1</tspan><tspan x="610" dy="16">1</tspan><tspan x="610" dy="16">0</tspan><tspan x="610" dy="16">1</tspan><tspan x="610" dy="16">0</tspan><tspan x="610" dy="16" fill="#b6ffd9">0</tspan><animateTransform attributeName="transform" type="translate" from="0 -160" to="0 360" dur="7s" begin="1.2s" repeatCount="indefinite"/></text>
+      <text x="660" y="0"><tspan x="660" dy="16">1</tspan><tspan x="660" dy="16">1</tspan><tspan x="660" dy="16">0</tspan><tspan x="660" dy="16">1</tspan><tspan x="660" dy="16">0</tspan><tspan x="660" dy="16">1</tspan><tspan x="660" dy="16">1</tspan><tspan x="660" dy="16">0</tspan><tspan x="660" dy="16">0</tspan><tspan x="660" dy="16">1</tspan><tspan x="660" dy="16">1</tspan><tspan x="660" dy="16">0</tspan><tspan x="660" dy="16" fill="#b6ffd9">1</tspan><animateTransform attributeName="transform" type="translate" from="0 -240" to="0 360" dur="6.2s" begin="0.5s" repeatCount="indefinite"/></text>
+    </g>
+    <g fill="#0e7c9e">
+      <text x="1040" y="0"><tspan x="1040" dy="16">0</tspan><tspan x="1040" dy="16">1</tspan><tspan x="1040" dy="16">1</tspan><tspan x="1040" dy="16">0</tspan><tspan x="1040" dy="16">1</tspan><tspan x="1040" dy="16">0</tspan><tspan x="1040" dy="16">0</tspan><tspan x="1040" dy="16">1</tspan><tspan x="1040" dy="16">1</tspan><tspan x="1040" dy="16" fill="#9be8ff">0</tspan><animateTransform attributeName="transform" type="translate" from="0 -180" to="0 360" dur="6.6s" begin="0.9s" repeatCount="indefinite"/></text>
+      <text x="1095" y="0"><tspan x="1095" dy="16">1</tspan><tspan x="1095" dy="16">0</tspan><tspan x="1095" dy="16">0</tspan><tspan x="1095" dy="16">1</tspan><tspan x="1095" dy="16">1</tspan><tspan x="1095" dy="16">0</tspan><tspan x="1095" dy="16">1</tspan><tspan x="1095" dy="16">0</tspan><tspan x="1095" dy="16">1</tspan><tspan x="1095" dy="16">1</tspan><tspan x="1095" dy="16" fill="#9be8ff">0</tspan><animateTransform attributeName="transform" type="translate" from="0 -220" to="0 360" dur="5.8s" begin="2s" repeatCount="indefinite"/></text>
+      <text x="1150" y="0"><tspan x="1150" dy="16">0</tspan><tspan x="1150" dy="16">0</tspan><tspan x="1150" dy="16">1</tspan><tspan x="1150" dy="16">0</tspan><tspan x="1150" dy="16">1</tspan><tspan x="1150" dy="16">1</tspan><tspan x="1150" dy="16">0</tspan><tspan x="1150" dy="16">0</tspan><tspan x="1150" dy="16" fill="#9be8ff">1</tspan><animateTransform attributeName="transform" type="translate" from="0 -140" to="0 360" dur="7.4s" begin="1.6s" repeatCount="indefinite"/></text>
+    </g>
+  </g>
+
+  <!-- faint grid -->
+  <g stroke="#0e3a5c" stroke-width="1" opacity="0.35">
+    <line x1="0" y1="170" x2="1200" y2="170"/>
+    <line x1="540" y1="0" x2="540" y2="340"/>
+    <line x1="900" y1="0" x2="900" y2="340"/>
+  </g>
+
+  <!-- corner HUD brackets -->
+  <g stroke="#64ffda" stroke-width="2" fill="none" opacity="0.8">
+    <path d="M22 22 h38 M22 22 v38"/>
+    <path d="M1178 22 h-38 M1178 22 v38"/>
+    <path d="M22 318 h38 M22 318 v-38"/>
+    <path d="M1178 318 h-38 M1178 318 v-38"/>
+  </g>
+
+  <!-- ===== TERMINAL: breach -> defend -> secure ===== -->
+  <g>
+    <rect x="40" y="58" width="470" height="224" rx="10" fill="#04101e" stroke="#0e3a5c" stroke-width="1.5"/>
+    <rect x="40" y="58" width="470" height="26" rx="10" fill="#0a1c30"/>
+    <circle cx="58" cy="71" r="4.5" fill="#ff5f57"/>
+    <circle cx="74" cy="71" r="4.5" fill="#febc2e"/>
+    <circle cx="90" cy="71" r="4.5" fill="#28c840"/>
+    <text x="250" y="75" text-anchor="middle" fill="#3d7ea6" font-size="11" letter-spacing="1">hr-soc — live monitor</text>
+
+    <g clip-path="url(#screen)" font-size="13.5">
+      <!-- each line cascades in, holds, then the whole sequence loops (10s) -->
+      <text x="58" y="108" fill="#64ffda"><tspan fill="#7ee787">root@hr-soc</tspan>:~# ./monitor --live<animate attributeName="opacity" values="0;1;1;1;1;1;1;0" keyTimes="0;0.05;0.1;0.85;0.9;0.93;0.97;1" dur="10s" repeatCount="indefinite"/></text>
+      <text x="58" y="132" fill="#ff4d6d">[!] ANOMALY DETECTED :: 10.0.4.17<animate attributeName="opacity" values="0;0;1;1;1;1;0;0" keyTimes="0;0.12;0.17;0.85;0.9;0.93;0.96;1" dur="10s" repeatCount="indefinite"/></text>
+      <text x="58" y="156" fill="#9fc7e0">[*] correlating events across SIEM...<animate attributeName="opacity" values="0;0;1;1;1;1;0;0" keyTimes="0;0.24;0.29;0.85;0.9;0.93;0.96;1" dur="10s" repeatCount="indefinite"/></text>
+      <text x="58" y="180" fill="#ff4d6d" font-weight="700">[!] BREACH CONFIRMED — lateral movement<animate attributeName="opacity" values="0;0;1;1;0.4;1;0;0" keyTimes="0;0.36;0.41;0.55;0.6;0.85;0.95;1" dur="10s" repeatCount="indefinite"/></text>
+      <text x="58" y="204" fill="#ffb703">[&gt;] isolating host... blocking C2 beacon...<animate attributeName="opacity" values="0;0;1;1;1;1;0;0" keyTimes="0;0.5;0.55;0.85;0.9;0.93;0.96;1" dur="10s" repeatCount="indefinite"/></text>
+      <text x="58" y="228" fill="#9fc7e0">[*] pushing detection rule -> Sentinel<animate attributeName="opacity" values="0;0;1;1;1;1;0;0" keyTimes="0;0.62;0.67;0.85;0.9;0.93;0.96;1" dur="10s" repeatCount="indefinite"/></text>
+      <text x="58" y="256" fill="#7ee787" font-weight="700" filter="url(#glow)">[+] THREAT NEUTRALIZED :: SYSTEM SECURE<animate attributeName="opacity" values="0;0;0;1;0.5;1;0.6;1" keyTimes="0;0.74;0.78;0.8;0.83;0.86;0.92;1" dur="10s" repeatCount="indefinite"/></text>
+      <!-- blinking cursor -->
+      <rect x="58" y="270" width="8" height="14" fill="#64ffda"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+    </g>
+  </g>
+
+  <!-- ===== GLITCH TITLE ===== -->
+  <g transform="translate(870,128)" text-anchor="middle">
+    <text x="2" y="2" fill="#ff00d4" font-size="50" font-weight="700" letter-spacing="3" opacity="0">HR
+      <animate attributeName="opacity" values="0;0.7;0;0.5;0;0" keyTimes="0;0.05;0.1;0.16;0.22;1" dur="3.5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="-3 1; 2 -1; -2 0; 0 0" dur="3.5s" repeatCount="indefinite"/>
+    </text>
+    <text x="-2" y="-1" fill="#00f0ff" font-size="50" font-weight="700" letter-spacing="3" opacity="0">HR
+      <animate attributeName="opacity" values="0;0.7;0;0.5;0;0" keyTimes="0;0.06;0.12;0.18;0.24;1" dur="3.5s" begin="0.1s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="3 -1; -2 1; 2 0; 0 0" dur="3.5s" begin="0.1s" repeatCount="indefinite"/>
+    </text>
+    <text x="0" y="0" fill="#e6f1ff" font-size="50" font-weight="700" letter-spacing="3" filter="url(#glow)">HR</text>
+  </g>
+  <text x="870" y="172" text-anchor="middle" fill="#64ffda" font-size="26" font-weight="600" letter-spacing="7" filter="url(#glow)">AI SOC ANALYST</text>
+  <text x="870" y="200" text-anchor="middle" fill="#5fa8d3" font-size="13" letter-spacing="3">TIER 1 &#8594; 2 &#8594; 3 &#160;//&#160; DETECT &#183; HUNT &#183; SECURE</text>
+
+  <!-- ===== PADLOCK: red unlocked -> green locked ===== -->
+  <g transform="translate(870,236)">
+    <!-- shackle -->
+    <path d="M-14 4 v-8 a14 14 0 0 1 28 0 v8" fill="none" stroke="#ff4d6d" stroke-width="5" stroke-linecap="round">
+      <animate attributeName="stroke" values="#ff4d6d;#ff4d6d;#7ee787;#7ee787" keyTimes="0;0.55;0.62;1" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="d" values="M-14 4 v-14 a14 14 0 0 1 28 0 v14; M-14 4 v-14 a14 14 0 0 1 28 0 v14; M-14 4 v-8 a14 14 0 0 1 28 0 v8" keyTimes="0;0.6;0.66" dur="10s" repeatCount="indefinite"/>
+    </path>
+    <!-- body -->
+    <rect x="-20" y="2" width="40" height="30" rx="5" fill="#0a1c30" stroke="#ff4d6d" stroke-width="2.5">
+      <animate attributeName="stroke" values="#ff4d6d;#ff4d6d;#7ee787;#7ee787" keyTimes="0;0.55;0.62;1" dur="10s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="0" cy="14" r="4" fill="#ff4d6d">
+      <animate attributeName="fill" values="#ff4d6d;#ff4d6d;#7ee787;#7ee787" keyTimes="0;0.55;0.62;1" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="-1.5" y="16" width="3" height="9" fill="#ff4d6d">
+      <animate attributeName="fill" values="#ff4d6d;#ff4d6d;#7ee787;#7ee787" keyTimes="0;0.55;0.62;1" dur="10s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- ===== STATUS BAR ===== -->
+  <rect x="540" y="298" width="660" height="0.5" fill="#0e3a5c"/>
+  <text x="870" y="320" text-anchor="middle" fill="#3d7ea6" font-size="12" letter-spacing="2">
+    <tspan fill="#7ee787">&#9679;</tspan> HUNT MODE: ACTIVE &#160;|&#160; THREATS BLOCKED: 1,337 &#160;|&#160; CALM MIND, RELENTLESS HUNT
+  </text>
+
+  <!-- ===== SCANNING BEAM ===== -->
+  <rect x="0" y="0" width="3" height="340" fill="#64ffda" opacity="0.5">
+    <animate attributeName="x" values="540;1180;540" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.08;0.55;0.08" dur="7s" repeatCount="indefinite"/>
+  </rect>
+</svg>
